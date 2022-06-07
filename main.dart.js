@@ -9646,8 +9646,9 @@ _.b=c
 _.c=null},
 XM:function XM(a,b){this.a=a
 this.b=b},
-ts:function ts(a,b){this.f=a
-this.a=b},
+ts:function ts(a,b,c){this.f=a
+this.dx=b
+this.a=c},
 ni:function ni(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -35875,8 +35876,8 @@ i=c.r.ub(a)
 if(j.d<=0)h.a.toString
 h.a.toString
 A.b(h.k2,e)
-h.a.toString
-return new A.Hk(!1,new A.ty(A.a62(B.aB,A.pj(A.b(h.fx,f),new A.T3(d,h,!1,j,i,s,p),g),B.H,b.fy,0,g,g,g,B.et),g),g)}}
+a=h.a.dx
+return new A.Hk(!1,new A.ty(A.a62(B.aB,A.pj(A.b(h.fx,f),new A.T3(d,h,!1,j,i,s,p),g),B.H,a,0,g,g,g,B.et),g),g)}}
 A.T4.prototype={
 $1(a){var s=this.b
 if((s.a.a&30)===0)s.cf(0,this.c)},
@@ -51450,7 +51451,7 @@ e=b.a6(e).f
 h=t.G
 h=A.a([f,d,s,r,q,p,o,n,m,l,k,j,i,A.Ls(g,A.pK(A.dj("MOLECULAR BIOLOGY",A.id(g,B.d6,g,g,g,g,g,g,g,g,g,g,g,B.ae,g,g,!0,g,g,g,g,g,g,g,g),g,g),g,g),B.d6,g,g,g,e.a.a),A.kY(g,20,g),A.dj("Test Name\t:    COVID-19 RTPCR ",g,g,g),A.dj("SRF Number\t: 2456/KNR/2022066848",g,g,g),A.kY(g,30,g),A.a6P(A.a([A.dj("Result : ",A.id(g,g,g,g,g,g,g,g,g,g,g,30,g,B.ae,g,g,!0,g,g,g,g,g,g,g,g),g,g),A.dj("NEGATIVE",A.id(g,g,B.B9,g,g,g,g,g,g,g,g,30,g,B.ae,g,g,!0,g,g,g,g,g,g,g,g),g,g)],h),B.AK,B.po),A.kY(g,20,g),A.pK(A.dj('Method: Real Time Open RTPCR\nTest Performed at UNOMED DIAGNOSTIC CENTRE, PAYYANNUR.\n\nSAMPLE : NASOPHARYNGEAL/OROPHARYNGEAL SWAB\nICMR Registration No: UNDCKK\n\nThis Real Time Polymerase Chain Reaction test intended to use for the qualitative detection of a novel corona virus which was identified in 2019 at Wuhan City, Hubei province, China in upper respiratory tract specimens (nasopharyngeal extract, deep cough sputum etc) and lower respiratory tract specimens ( alveoli irrigation fluid, etc )of infected people.\n\nPathogen information :\nCorona viruses (CoV) are a large family of viruses that cause illness ranging from common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS -CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). SARSCoV-2 is a new strain that has not been previously identified in humans. Coronaviruses are zoonotic, meaning they are transmitted between animals and people. Detailed investigations found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans. Several known coronaviruses are circulating in animals that have not infected humans yet. 2019 Novel Corona virus (covid-19) is a virus (more specifically, a coronavirus) identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China. Patients reported with SARS-CoV-2 viral infections had mild to severe respiratory illness with symptoms of fever, cough, and shortness of breath.\n\nInterpretation :\nA "POSITIVE" result indicates that Severe Acute Respiratory Syndrome CoronaVirus-2 (SARS-CoV-2) RNA is present in the given sample and suggests the diagnosis of coronavirus disease 2019 (COVID-19). Test result should always be considered in the context of patient\'s clinical history, physical examination, and epidemiologic exposures.\nA "NEGATIVE" result indicates that SARS-CoV-2 is not present in the patient\'s given specimen. Result should be correlated with patient\u2019s history and clinical presentation. However it does not rule out the infection completely and should not be used as the sole basis for making decisions related to treatment and other patient management decisions. A false negative may resulted due to inadequate number of organisms are present in the specimen due to improper collection, transport or handling.\n** End of report **\n',g,g,g),g,g),A.a5K("assets/pic2.png")],h)
 e=A.aK([null,0],t.st,t.S)
-return new A.ts(new A.kE(B.wU,new A.A5(new A.Ve(!0,!0,!0,h,e),g,B.bC,!1,g,!0,B.rF,!1,g,22,B.bd,B.C2,g,B.ab,g),g),g)}}
+return new A.ts(new A.kE(B.wU,new A.A5(new A.Ve(!0,!0,!0,h,e),g,B.bC,!1,g,!0,B.rF,!1,g,22,B.bd,B.C2,g,B.ab,g),g),B.i,g)}}
 A.ii.prototype={
 gl(a){return this.b},
 h(a,b){if(b>=this.b)throw A.c(A.bi(b,this,null,null,null))
